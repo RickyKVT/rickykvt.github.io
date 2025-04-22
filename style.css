@@ -4,6 +4,9 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background: black;
@@ -222,12 +225,12 @@ nav ul li a:hover::after {
  
  /*-----------------Contact------------------------*/
 
- .contact{
+ #contact{
     padding:50px;
     background-color: #1c1c1c;
     
  }
- .contact h1{
+ #contact h1{
     text-align: center;
     margin-bottom: 40px;
  }
@@ -252,10 +255,10 @@ nav ul li a:hover::after {
     border-radius: 8px;
     white-space: nowrap;
 }
-.contact a i{
+#contact a i{
     color: white;
 }
-.contact a{
+#contact a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -268,7 +271,7 @@ nav ul li a:hover::after {
     backdrop-filter: blur(10px);
     text-decoration: none;
 }
-.contact a:hover{
+#contact a:hover{
     background-color: #444;  /* Lighter shade when hovered */
     transform: scale(1.05);   /* Slightly enlarge the item */
 }
