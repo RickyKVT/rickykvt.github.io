@@ -120,7 +120,14 @@ nav ul li a:hover::after {
     list-style:circle;
     margin:10px;
 }
-.tab-content ul li span{
+.tab-content span{
     color: #ff004f;
     font-size: 14px;
+}
+.tab-content{
+    display:none;
+}
+
+.tab-content.active-tab{
+    display:block
 }
